@@ -1,0 +1,67 @@
+.body {
+  position: relative;
+  width: max-content;
+
+  .input {
+    background-color: #F1F5FB;
+    border: 2px solid #F1F5FB;
+    padding: 28px 12px 8px 12px;
+    border-radius: 8px;
+    width: 342px;
+    box-sizing: border-box;
+    outline: none;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+
+
+    &::placeholder {
+      color: #000000;
+    }
+
+    &:hover {
+      border: 2px solid #222B38;
+    }
+
+    &:focus-visible {
+      border: 2px solid #222B38;
+    }
+
+  }
+
+
+  &_error {
+    .input {
+      border: 2px solid #FF0000;
+
+      &:hover {
+        border: 2px solid #FF0000;
+      }
+
+      &:focus-visible {
+        border: 2px solid #FF0000;
+      }
+    }
+  }
+
+  &_disabled {
+    .input {
+      color: #778191;
+
+      &::placeholder {
+        color: #778191;
+      }
+
+      &:hover {
+        border: 2px solid #F1F5FB;
+      }
+
+      &:focus-visible {
+        border: 2px solid #F1F5FB;
+      }
+
+    }
+  }
+}

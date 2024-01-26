@@ -1,0 +1,25 @@
+.label {
+  position: absolute;
+  padding-left: 12px;
+  padding-top: 8px;
+  transition: all 0.15s ease-in-out;
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: "Fixel Text", serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #0062F5;
+
+
+  &_disabled {
+    color: #778191;
+  }
+}

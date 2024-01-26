@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "Fixel Text";
+    font-weight: 400;
+    src: url("./FixelText-Regular.ttf") format("truetype");
+    font-display: swap;
+}
