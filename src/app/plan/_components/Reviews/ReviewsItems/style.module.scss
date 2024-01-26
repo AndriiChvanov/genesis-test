@@ -1,0 +1,9 @@
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .item {
+    margin-top: 12px;
+  }
+}

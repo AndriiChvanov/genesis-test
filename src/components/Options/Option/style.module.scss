@@ -1,0 +1,35 @@
+.body {
+  padding: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .option {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: start;
+    margin-left: 12px;
+    color: #000;
+  }
+
+  .percent {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0;
+    color: #000;
+    min-width: 72px;
+    text-align: end;
+  }
+
+  .percent_option {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0;
+    margin-left: 12px;
+    color: #000;
+  }
+}

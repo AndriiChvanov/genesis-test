@@ -1,0 +1,23 @@
+.error_text {
+  color: #FF0000;
+  position: absolute;
+  right: 0;
+  top: calc(100% + 3px);
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  cursor: auto;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+
+
+  &:hover {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

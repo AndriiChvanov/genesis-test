@@ -1,0 +1,13 @@
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .item {
+    margin-top: 8px;
+
+    &:first-child {
+      margin-top: 16px;
+    }
+  }
+}
