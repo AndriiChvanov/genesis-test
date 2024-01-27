@@ -1,0 +1,32 @@
+A/B Testing in Google Optimize
+
+Testing Goal: Increase conversion for purchasing a tariff plan.
+A/B Testing Tool: Google Optimize.
+
+Options:
+0 Control Group (Option A): Standard button with the current color (e.g., blue).
+* Test Group (Option B): Modified button with a new color (e.g., red).
+
+Implementation Steps:
+* Setting up Google Optimize:
+    * Create a new A/B testing experiment.
+    * Add Options A and B describing the changes within each option.
+* Configuring Variants on the Web Page:
+    * Add Google Optimize code to each page where testing will occur.
+    * Modify the button color in the code for Option B.
+* Defining the Goal:
+    * Set the testing goal as "Get my plan" in Google Optimize.
+* Implementing Changes:
+    * Create two options of the button differing only in color.
+* Random Allocation:
+    * Google Optimize will automatically allocate visitors between the control and test groups.
+* Setting Metrics:
+    * Track button clicks: monitor the number of clicks on the purchase button. An increase in this metric may indicate heightened user activity.
+* Setting Test Duration:
+    * Specify the testing duration, at least 2 weeks, to obtain statistically significant results.
+* Results Analysis:
+    * After completing the test, use Google Optimize to analyze data and determine which button variant led to increased conversion.
+* Decision-Making:
+    * Based on the results, decide whether to implement changes into production.
+* Documentation of Results:
+    * Document results, including metrics used, statistical significance, and decisions made.
