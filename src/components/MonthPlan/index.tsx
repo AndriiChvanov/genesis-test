@@ -4,7 +4,7 @@ import classes from "./style.module.scss"
 import cn from "classnames"
 import Image from "next/image"
 import { radio } from "@/icons"
-import { MonthPlanProp } from "@/app/plan/MonthPlans"
+import { MonthPlanProp } from "@/app/plan/_components/MonthPlans"
 
 const plus_jakarta_sans = Plus_Jakarta_Sans({ subsets: ["latin"] })
 
